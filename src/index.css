@@ -1,9 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
-  
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -15,157 +11,101 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-* {
-  list-style: none;
+
+.title {
+  margin-left: 20px;
+  border-bottom: 1px solid silver;
+  font-weight: 700;
+  font-size: 45px;
+  height: 100px;
 }
-.main {
-    width: 100%;
+
+.tarifs {
+  display: flex;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-a {
-  text-decoration: none;
-  color: #000;
-}
-.main-block {
-  display: grid;
-  width: 90%;
-  height: 150px;
-  margin: 0 auto;
-  grid-template-areas: 
-  "q q a r r r u u u i o"
-  "w e a t t t p p p p o"
-  "w e a y y y p p p p o";
-  border-top: 1px solid rgb(184, 184, 184);
+
+.block {
+  width: 400px;
+  border-bottom: 1px solid silver;
+  height: 180px;
   position: relative;
 }
-/* .main-block li {
-  border: 1px solid #000;
-} */
-.hitSale {
-  width: 40px;
-  height: 60px;
-  background-color: #ffc800;
-  color: #000;
-  position: absolute;
-  border-radius: 0 0 15px 15px;
-  left: 200px;
-  top: 0;
-}
+
 .hit {
-  display: block;
-  margin: 4px 0 0 4px;
-  font-weight: bold;
-  font-size: 18px;
+  width: 150px;
+  position: absolute;
+  top: -30px;
+  right: 20px;
 }
-.sale {
-  color: #000;
-  text-decoration: none;
-  font-size: 10px;
-  margin-left: 2px;
-}
-.social img {
-  width: 30px;
-}
-.imgSocial {
-  margin-left: -7px;
-}
-.title {
-  font-size: 16px;
-  font-weight: bold;
-  margin-left: 40px;
-}
+
 .price {
-  font-weight: bold;
-  display: block;
-  font-size: 45px;
-  text-align: end;
-
-}
-.withoutlimit {
-  display: block;
-  padding: 8px 0 0 0;
-}
-.text {
-  display: block;
-  padding: 8px 0 0 0;
-}
-.dollar {
-  font-weight: bold; 
-  font-size: 18px;
-  margin: 9px 0 0 0;
-}
-.trafic{ 
-  font-weight: bold; 
-  font-size: 20px;
-}
-.time {
-  font-weight: bold; 
-  font-size: 20px;
-}
-.butBtn {
-  width: 100px;
-  padding: 10px 15px;
-  font-weight: bold;
-  border: 2px solid #000;
-  border-radius: 20px;
-  text-align: center;
-  margin: 30px 0 0 150px;
+  font-weight: 650;
+  font-size: 60px;
+  color: #1F2229;
 }
 
-.messageCount {
+.right {
   display: inline-block;
+}
+
+.rubleSign {
+  margin-left: 5px;
+  font-weight: 650; 
+  font-size: 25px;
+  color: #1F2229;
+}
+
+.slashTime {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.internetAmount {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.internetMemory {
+  font-weight: 450;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.socialIcons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.icon {
+  width: 35px;
+  margin: -3px;
+}
+
+.callMinutesAmount {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.callMinutes {
+  font-weight: lighter;
+  font-size: 26px;
+}
+
+.callUnlimit {
+  font-weight: 500;
   font-size: 20px;
-  font-weight: bold;
 }
 
-.main-block-item-1{
-  min-width: 90px;
-  display: grid;
-  align-items: end;
-  grid-area: q;
-}
-.main-block-item-2{
-  min-width: 90px;
-  grid-area: w;
-}
-.main-block-item-3{
-  min-width: 90px;
-  grid-area: e;
-}
-.main-block-item-4{
-  display: grid;
-  align-items: end;
-  grid-area: r;
-  max-width: 90px;
-}
-.main-block-item-5{
-  grid-area: t;
-}
-.main-block-item-6{
-  grid-area: y;
-}
-.main-block-item-7{
-  display: grid;
-  align-items: end;
-  grid-area: u;
-}
-.main-block-item-8{
-  display: grid;
-  align-items: end;
-  justify-content: center;
-  grid-area: i;
-}
-.main-block-item-9{
-  grid-area: o;
-}
-.main-block-item-10{
-  grid-area: p;
-}
-.main-block-item-11{
-  grid-area: a;
+.smsAmount {
+  font-weight: 700;
+  font-size: 25px;
 }
 
-.d {
-  width: 1000px;
-  height: 1000px;
-  font-size: 50px;
+.smsText {
+  font-weight: 400;
+  margin-left: 5px;
 }
