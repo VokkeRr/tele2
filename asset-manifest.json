@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tele2/static/css/main.85c0f7e9.chunk.css",
+    "main.js": "/tele2/static/js/main.c3fd0add.chunk.js",
+    "main.js.map": "/tele2/static/js/main.c3fd0add.chunk.js.map",
+    "runtime-main.js": "/tele2/static/js/runtime-main.435df064.js",
+    "runtime-main.js.map": "/tele2/static/js/runtime-main.435df064.js.map",
+    "static/js/2.0bfd1891.chunk.js": "/tele2/static/js/2.0bfd1891.chunk.js",
+    "static/js/2.0bfd1891.chunk.js.map": "/tele2/static/js/2.0bfd1891.chunk.js.map",
+    "index.html": "/tele2/index.html",
+    "precache-manifest.b4a4a040346a695736efa0361686282b.js": "/tele2/precache-manifest.b4a4a040346a695736efa0361686282b.js",
+    "service-worker.js": "/tele2/service-worker.js",
+    "static/css/main.85c0f7e9.chunk.css.map": "/tele2/static/css/main.85c0f7e9.chunk.css.map",
+    "static/js/2.0bfd1891.chunk.js.LICENSE.txt": "/tele2/static/js/2.0bfd1891.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.435df064.js",
+    "static/js/2.0bfd1891.chunk.js",
+    "static/css/main.85c0f7e9.chunk.css",
+    "static/js/main.c3fd0add.chunk.js"
+  ]
+}
