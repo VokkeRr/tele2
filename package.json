@@ -2,7 +2,7 @@
   "name": "tarif",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://myname.github.io/myapp",
+  "homepage" : "http://VokkeRr.github.io/Tarif",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
